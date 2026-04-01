@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.6.2">
+  <drawing>
+    <settings>
+      <setting alwaysvectorfont="yes"/>
+      <setting verticaltext="up"/>
+    </settings>
+    <grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.25" altunitdist="mm" altunit="mm"/>
+    <layers>
+      <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+      <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+      <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+      <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+      <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+      <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+      <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+      <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+      <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+      <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+      <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+    </layers>
+    <board>
+      <plain>
+        <wire x1="0" y1="0" x2="80" y2="0" width="0" layer="20"/>
+        <wire x1="80" y1="0" x2="80" y2="60" width="0" layer="20"/>
+        <wire x1="80" y1="60" x2="0" y2="60" width="0" layer="20"/>
+        <wire x1="0" y1="60" x2="0" y2="0" width="0" layer="20"/>
+        <text x="2" y="56" size="1.27" layer="21">URBAN BEAM SWR board start (80x60 mm)</text>
+        <text x="2" y="53" size="1.016" layer="21">Suggested placement: RF in left, AD8307 center, ADC/PWR right.</text>
+      </plain>
+      <libraries/>
+      <attributes/>
+      <variantdefs/>
+      <classes>
+        <class number="0" name="default" width="0" drill="0"/>
+      </classes>
+      <designrules name="default"/>
+      <autorouter>
+        <pass name="Default"/>
+      </autorouter>
+      <elements/>
+      <signals/>
+    </board>
+  </drawing>
+</eagle>

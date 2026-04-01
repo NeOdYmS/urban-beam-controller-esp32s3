@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1224" stop-opacity="0.92"/>
+      <stop offset="100%" stop-color="#182338" stop-opacity="0.92"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="720" fill="url(#bg)"/>
+  <circle cx="1080" cy="80" r="220" fill="#0ea5e9" opacity="0.2"/>
+  <circle cx="130" cy="90" r="180" fill="#1d4ed8" opacity="0.25"/>
+  <text x="48" y="56" fill="#e2e8f0" font-size="34" font-family="Segoe UI, Arial">URBAN BEAM - Interface Web Ethernet</text>
+
+  <rect x="40" y="88" rx="16" ry="16" width="760" height="592" fill="url(#card)" stroke="#334155"/>
+  <text x="68" y="132" fill="#e2e8f0" font-size="24" font-family="Segoe UI, Arial">SWR Temps Reel</text>
+  <text x="68" y="168" fill="#34d399" font-size="42" font-family="Segoe UI, Arial" font-weight="700">SWR: 1.28</text>
+
+  <rect x="68" y="196" width="704" height="450" rx="12" ry="12" fill="#020617" stroke="#475569"/>
+  <polyline fill="none" stroke="#22d3ee" stroke-width="4" points="90,520 160,500 230,470 300,420 370,390 440,360 510,340 580,320 650,305 720,298"/>
+  <line x1="90" y1="520" x2="720" y2="520" stroke="#64748b"/>
+  <line x1="90" y1="450" x2="720" y2="450" stroke="#334155"/>
+  <line x1="90" y1="380" x2="720" y2="380" stroke="#334155"/>
+  <line x1="90" y1="310" x2="720" y2="310" stroke="#334155"/>
+
+  <rect x="830" y="88" rx="16" ry="16" width="410" height="280" fill="url(#card)" stroke="#334155"/>
+  <text x="858" y="132" fill="#e2e8f0" font-size="24" font-family="Segoe UI, Arial">Mode Auto</text>
+  <text x="858" y="174" fill="#94a3b8" font-size="20" font-family="Segoe UI, Arial">Frequence: 14.150 MHz</text>
+  <text x="858" y="210" fill="#94a3b8" font-size="20" font-family="Segoe UI, Arial">Etat: ACTIF</text>
+  <text x="858" y="246" fill="#94a3b8" font-size="20" font-family="Segoe UI, Arial">Dipole: 5030 mm</text>
+  <text x="858" y="282" fill="#94a3b8" font-size="20" font-family="Segoe UI, Arial">Reflector: 4710 mm</text>
+
+  <rect x="830" y="400" rx="16" ry="16" width="410" height="280" fill="url(#card)" stroke="#334155"/>
+  <text x="858" y="444" fill="#e2e8f0" font-size="24" font-family="Segoe UI, Arial">Axes Moteurs</text>
+  <text x="858" y="482" fill="#94a3b8" font-size="20" font-family="Segoe UI, Arial">Dipole: 41880 pas</text>
+  <text x="858" y="516" fill="#94a3b8" font-size="20" font-family="Segoe UI, Arial">Reflector: 44720 pas</text>
+  <text x="858" y="550" fill="#34d399" font-size="20" font-family="Segoe UI, Arial">FDC Min/Max: OK</text>
+
+  <text x="40" y="704" fill="#94a3b8" font-size="18" font-family="Segoe UI, Arial">Apercu interface web (illustration de documentation)</text>
+</svg>

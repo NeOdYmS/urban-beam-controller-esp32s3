@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#111827"/>
+  <rect x="90" y="70" width="1100" height="580" rx="20" ry="20" fill="#0b3a2a" stroke="#86efac" stroke-width="3"/>
+  <text x="120" y="118" fill="#d1fae5" font-size="34" font-family="Segoe UI, Arial">Apercu Board - Urban Beam SWR Measurement (80 x 60 mm)</text>
+
+  <rect x="170" y="180" width="180" height="120" fill="#064e3b" stroke="#a7f3d0"/>
+  <text x="195" y="245" fill="#d1fae5" font-size="20" font-family="Segoe UI, Arial">SMA FWD</text>
+
+  <rect x="170" y="360" width="180" height="120" fill="#064e3b" stroke="#a7f3d0"/>
+  <text x="195" y="425" fill="#d1fae5" font-size="20" font-family="Segoe UI, Arial">SMA REV</text>
+
+  <rect x="430" y="170" width="220" height="140" fill="#14532d" stroke="#bbf7d0"/>
+  <text x="485" y="245" fill="#d1fae5" font-size="22" font-family="Segoe UI, Arial">AD8307</text>
+
+  <rect x="430" y="350" width="220" height="140" fill="#14532d" stroke="#bbf7d0"/>
+  <text x="485" y="425" fill="#d1fae5" font-size="22" font-family="Segoe UI, Arial">AD8307</text>
+
+  <rect x="740" y="220" width="180" height="120" fill="#1e3a8a" stroke="#93c5fd"/>
+  <text x="780" y="286" fill="#dbeafe" font-size="22" font-family="Segoe UI, Arial">LDO</text>
+
+  <rect x="980" y="210" width="150" height="230" fill="#312e81" stroke="#c4b5fd"/>
+  <text x="1012" y="275" fill="#ede9fe" font-size="18" font-family="Segoe UI, Arial">J3</text>
+  <text x="1004" y="305" fill="#ede9fe" font-size="18" font-family="Segoe UI, Arial">ADC_FWD</text>
+  <text x="1004" y="335" fill="#ede9fe" font-size="18" font-family="Segoe UI, Arial">ADC_REV</text>
+
+  <line x1="350" y1="240" x2="430" y2="240" stroke="#86efac" stroke-width="4"/>
+  <line x1="350" y1="420" x2="430" y2="420" stroke="#86efac" stroke-width="4"/>
+  <line x1="650" y1="240" x2="980" y2="240" stroke="#93c5fd" stroke-width="4"/>
+  <line x1="650" y1="420" x2="980" y2="360" stroke="#93c5fd" stroke-width="4"/>
+
+  <text x="120" y="620" fill="#bbf7d0" font-size="18" font-family="Segoe UI, Arial">Apercu board (illustration). Le board editable est dans hardware/fusion360/urban_beam_measurement_start.brd</text>
+</svg>

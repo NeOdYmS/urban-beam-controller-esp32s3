@@ -1,0 +1,10 @@
+Ref,Qty,Value,Package,Description
+U1,1,AD8307,SOIC-8,Log detector forward path
+U2,1,AD8307,SOIC-8,Log detector reflected path
+U3,1,LDO 3V3,SOT-223 or SOT-23,Low noise regulator for analog stage
+J1,1,SMA-F edge,EDGE-SMA,RF input from coupler forward
+J2,1,SMA-F edge,EDGE-SMA,RF input from coupler reflected
+J3,1,PinHeader 1x6,2.54mm,5V GND ADC_FWD ADC_REV AGND DGND
+R*,8,1k..100k,0603,Gain/attenuation/filter and protection resistors
+C*,10,100n/1u/10u,0603/0805,Decoupling and output filtering
+D1,2,ESD clamp,SOT-23,ADC input protection
