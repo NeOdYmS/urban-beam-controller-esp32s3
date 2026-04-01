@@ -1,10 +1,14 @@
 Ref,Qty,Value,Package,Description
-U1,1,AD8307,SOIC-8,Log detector forward path
-U2,1,AD8307,SOIC-8,Log detector reflected path
-U3,1,LDO 3V3,SOT-223 or SOT-23,Low noise regulator for analog stage
-J1,1,SMA-F edge,EDGE-SMA,RF input from coupler forward
-J2,1,SMA-F edge,EDGE-SMA,RF input from coupler reflected
-J3,1,PinHeader 1x6,2.54mm,5V GND ADC_FWD ADC_REV AGND DGND
-R*,8,1k..100k,0603,Gain/attenuation/filter and protection resistors
-C*,10,100n/1u/10u,0603/0805,Decoupling and output filtering
-D1,2,ESD clamp,SOT-23,ADC input protection
+J1,1,BNC-F,BNC panel mount,RF input from TX
+J2,1,BNC-F,BNC panel mount,RF output to antenna
+J3,1,PinHeader 1x6,2.54mm,5V GND SWR_ADC FREQ_OUT AGND RSV
+T1,1,FT37-43 bifilaire,through-hole,Coupleur directionnel ~20dB
+U1,1,LM311,SOIC-8,Comparateur RF → signal carré
+U2,1,74HC4040,SOIC-16 ou DIP-16,Prescaler ÷256 pour compteur fréquence
+U3,1,LDO 3V3,SOT-223,Régulateur faible bruit pour analogique
+U4,1,MCP6002,SOIC-8,Buffer op-amp pour sortie SWR (optionnel)
+D1-D2,2,1N5711,SOD-323,Diodes Schottky détectrices FWD/REV
+R1-R3,3,50R 1%,0603,Pont résistif VSWR
+R*,6,1k-100k,0603,Résistances filtre/protection/adaptation
+C*,10,100n/1u,0603/0805,Découplage et filtrage
+D3,1,ESD clamp,SOT-23,Protection entrée ADC ESP32
